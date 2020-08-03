@@ -18,4 +18,7 @@ sudo apachectl stop
 
 # If google throws error of security of page. Type the following anywhere on page.
 thisisunsafe
+
+# Creating ENV variables
+kubectl create secret generic jwt-secret ---from-literal=JWT_KEY=value
 ```
